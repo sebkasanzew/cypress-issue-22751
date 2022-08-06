@@ -1,0 +1,28 @@
+{
+  "name": "cypress-issue-22751",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "dependencies": {
+    "next": "12.2.4",
+    "next-auth": "4.10.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.6.4",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "cypress": "10.4.0",
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4",
+    "typescript": "4.7.4"
+  }
+}
